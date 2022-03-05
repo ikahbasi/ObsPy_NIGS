@@ -1,0 +1,197 @@
+#
+###################################################################################
+#
+B050F03     Station:     BFZ
+B050F16     Network:     NZ
+B052F03     Location:    10
+B052F04     Channel:     HHZ
+B052F22     Start date:  2009,323,01:00:01
+B052F23     End date:    2015,280,11:05:05
+#
+#                  +-----------------------------------+
+#                  |    Response (Poles and Zeros)     |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B053F03     Transfer function type:                A - Laplace transform analog response, in rad/sec
+B053F04     Stage sequence number:                 1
+B053F05     Response in units lookup:              m/s - null
+B053F06     Response out units lookup:             V - null
+B053F07     A0 normalization factor:               +5.91988E+07
+B053F08     Normalization frequency:               +1.00000E+00
+B053F09     Number of zeroes:                      2
+B053F14     Number of poles:                       5
+#              Complex zeroes:
+#              i  real          imag          real_error    imag_error
+B053F10-13     5  +0.00000E+00  +0.00000E+00  +0.00000E+00  +0.00000E+00
+B053F10-13     6  +0.00000E+00  +0.00000E+00  +0.00000E+00  +0.00000E+00
+#              Complex poles:
+#              i  real          imag          real_error    imag_error
+B053F15-18     0  -3.70100E-02  +3.70100E-02  +0.00000E+00  +0.00000E+00
+B053F15-18     1  -3.70100E-02  -3.70100E-02  +0.00000E+00  +0.00000E+00
+B053F15-18     2  -1.31000E+02  +4.67300E+02  +0.00000E+00  +0.00000E+00
+B053F15-18     3  -1.31000E+02  -4.67300E+02  +0.00000E+00  +0.00000E+00
+B053F15-18     4  -2.51300E+02  +0.00000E+00  +0.00000E+00  +0.00000E+00
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 1
+B058F04     Sensitivity:                           +1.50000E+03
+B058F05     Frequency of sensitivity:              +1.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |      Response (Coefficients)      |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 2
+B054F05     Response in units lookup:              V - null
+B054F06     Response out units lookup:             count - null
+B054F07     Number of numerators:                  0
+B054F10     Number of denominators:                0
+#
+#                  +-----------------------------------+
+#                  |            Decimation             |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B057F03     Stage sequence number:                  2
+B057F04     Input sample rate (HZ):                 1.0000E+02
+B057F05     Decimation factor:                      00001
+B057F06     Decimation offset:                      00000
+B057F07     Estimated delay (seconds):             +0.0000E+00
+B057F08     Correction applied (seconds):          +0.0000E+00
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 2
+B058F04     Sensitivity:                           +1.67772E+06
+B058F05     Frequency of sensitivity:              +1.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |           FIR Response            |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B061F03     Stage sequence number:                 3
+B061F04     Response Name:                         Q330_FLbelow100-100
+B061F05     Symmetry Code:                         A
+B061F06     Response in units lookup:              count - null
+B061F07     Response out units lookup:             count - null
+B061F08     Number of Coefficients:                65
+#              i  FIR Coefficient
+B061F09     0  +1.31549E-11
+B061F09     1  +1.50107E-04
+B061F09     2  +1.33968E-02
+B061F09     3  +1.64429E-01
+B061F09     4  +5.68809E-01
+B061F09     5  +5.17383E-01
+B061F09     6  -2.60836E-01
+B061F09     7  -1.22033E-01
+B061F09     8  +2.57181E-01
+B061F09     9  -2.02903E-01
+B061F09    10  +7.07588E-02
+B061F09    11  +3.87967E-02
+B061F09    12  -1.14313E-01
+B061F09    13  +1.35480E-01
+B061F09    14  -1.11447E-01
+B061F09    15  +6.70548E-02
+B061F09    16  -1.92712E-02
+B061F09    17  -2.09313E-02
+B061F09    18  +4.76806E-02
+B061F09    19  -5.93383E-02
+B061F09    20  +5.75793E-02
+B061F09    21  -4.62333E-02
+B061F09    22  +2.97771E-02
+B061F09    23  -1.24829E-02
+B061F09    24  -2.36608E-03
+B061F09    25  +1.27882E-02
+B061F09    26  -1.84698E-02
+B061F09    27  +1.87973E-02
+B061F09    28  -1.71387E-02
+B061F09    29  +1.27820E-02
+B061F09    30  -7.67579E-03
+B061F09    31  +3.25516E-03
+B061F09    32  -8.94756E-05
+B061F09    33  -1.77876E-03
+B061F09    34  +2.59604E-03
+B061F09    35  -2.66617E-03
+B061F09    36  +2.30740E-03
+B061F09    37  -1.77052E-03
+B061F09    38  +1.21864E-03
+B061F09    39  -7.46049E-04
+B061F09    40  +3.92175E-04
+B061F09    41  -1.58366E-04
+B061F09    42  +2.43780E-05
+B061F09    43  +3.80757E-05
+B061F09    44  -5.61805E-05
+B061F09    45  +5.15277E-05
+B061F09    46  -3.85647E-05
+B061F09    47  +2.53029E-05
+B061F09    48  -1.51246E-05
+B061F09    49  +8.73980E-06
+B061F09    50  -4.64812E-06
+B061F09    51  +1.37628E-06
+B061F09    52  +7.04206E-07
+B061F09    53  +2.24187E-07
+B061F09    54  -1.25103E-06
+B061F09    55  +1.06677E-07
+B061F09    56  +2.64288E-07
+B061F09    57  +3.22664E-07
+B061F09    58  -8.07416E-08
+B061F09    59  -1.09905E-07
+B061F09    60  -3.32520E-08
+B061F09    61  +1.38851E-08
+B061F09    62  +1.05627E-08
+B061F09    63  +2.57791E-09
+B061F09    64  -7.01862E-10
+#
+#                  +-----------------------------------+
+#                  |            Decimation             |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B057F03     Stage sequence number:                  3
+B057F04     Input sample rate (HZ):                 1.0000E+02
+B057F05     Decimation factor:                      00001
+B057F06     Decimation offset:                      00000
+B057F07     Estimated delay (seconds):             +0.0000E+00
+B057F08     Correction applied (seconds):          +0.0000E+00
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 3
+B058F04     Sensitivity:                           +1.00000E+00
+B058F05     Frequency of sensitivity:              +1.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        NZ  BFZ    10  HHZ         |
+#                  |     11/19/2009 to 10/07/2015      |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 0
+B058F04     Sensitivity:                           +2.51658E+09
+B058F05     Frequency of sensitivity:              +1.00000E+00
+B058F06     Number of calibrations:                0
